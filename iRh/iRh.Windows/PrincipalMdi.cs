@@ -31,5 +31,10 @@ namespace iRh.Windows
         {
 
         }
+
+        private void beneficioDeFériasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
