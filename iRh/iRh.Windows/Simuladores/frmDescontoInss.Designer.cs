@@ -74,6 +74,7 @@
             this.panelResultado.Name = "panelResultado";
             this.panelResultado.Size = new System.Drawing.Size(476, 100);
             this.panelResultado.TabIndex = 3;
+            this.panelResultado.Visible = false;
             // 
             // lblResulatdo
             // 

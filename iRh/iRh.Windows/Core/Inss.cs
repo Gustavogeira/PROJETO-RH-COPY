@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using iRh.Windows.Simuladores;
+using System.Windows.Forms;
 
 namespace iRh.Windows.Core
 {
@@ -45,19 +46,19 @@ namespace iRh.Windows.Core
             }
 
 
-            return 0;
+            return valorInss;
         }
         private static double CalculaFaixa1(double salario)
         {
-            return (0.075 * salario);
+            return (0.075 * Faixa01);
         }
         private static double CalculaFaixa2(double salario)
         {
-            return 0.09 * (Faixa02 - Faixa01);
+            return 0.09 * (Faixa02 - Faixa02);
         }
         private static double CalculaFaixa3(double salario)
         {
-            return 0.12 * (Faixa03 - Faixa02);
+            return 0.12 * (Faixa03 - Faixa03);
         }
     }
     
