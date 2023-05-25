@@ -68,7 +68,7 @@
             // 
             // panelResultado
             // 
-            this.panelResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panelResultado.BackColor = System.Drawing.Color.White;
             this.panelResultado.Controls.Add(this.lblResultado);
             this.panelResultado.Location = new System.Drawing.Point(13, 225);
             this.panelResultado.Name = "panelResultado";
