@@ -63,9 +63,49 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adicional_Norturno {
+            get {
+                object obj = ResourceManager.GetObject("Adicional-Norturno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imposto_de_renda {
+            get {
+                object obj = ResourceManager.GetObject("imposto-de-renda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inss_tributacao_impostos_gestao_linko_comercial_cr_sistemas_e_web {
+            get {
+                object obj = ResourceManager.GetObject("inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap original_2c8798bcd96b41b36151f03c0ba7b98f_1637340646 {
             get {
                 object obj = ResourceManager.GetObject("original-2c8798bcd96b41b36151f03c0ba7b98f-1637340646", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quais_as_tendencias_do_rh_4_0 {
+            get {
+                object obj = ResourceManager.GetObject("quais-as-tendencias-do-rh-4-0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

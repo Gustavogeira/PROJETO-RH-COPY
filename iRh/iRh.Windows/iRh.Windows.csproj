@@ -52,8 +52,10 @@
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\AdicionalNoturno.cs" />
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\Irpf.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
@@ -136,6 +138,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioAdicionalNoturno.resx">
+      <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
       <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDescontoIrrf.resx">
+      <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -166,6 +174,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adicional-Norturno.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imposto-de-renda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quais-as-tendencias-do-rh-4-0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -40,6 +40,7 @@
             // lblSalario
             // 
             this.lblSalario.AutoSize = true;
+            this.lblSalario.BackColor = System.Drawing.Color.Transparent;
             this.lblSalario.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalario.Location = new System.Drawing.Point(22, 50);
             this.lblSalario.Name = "lblSalario";

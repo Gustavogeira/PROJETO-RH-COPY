@@ -40,6 +40,7 @@
             // lblFgts
             // 
             this.lblFgts.AutoSize = true;
+            this.lblFgts.BackColor = System.Drawing.Color.Transparent;
             this.lblFgts.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFgts.Location = new System.Drawing.Point(13, 37);
             this.lblFgts.Name = "lblFgts";
