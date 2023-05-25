@@ -52,7 +52,9 @@
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +136,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
+      <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
+      <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
       <DependentUpon>frmDescontoInss.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +160,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\salary_marketing_income_financial_earn_money_is_work_icon_230480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original-2c8798bcd96b41b36151f03c0ba7b98f-1637340646.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

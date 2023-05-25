@@ -63,9 +63,29 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap original_2c8798bcd96b41b36151f03c0ba7b98f_1637340646 {
+            get {
+                object obj = ResourceManager.GetObject("original-2c8798bcd96b41b36151f03c0ba7b98f-1637340646", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap salary_marketing_income_financial_earn_money_is_work_icon_230480 {
             get {
                 object obj = ResourceManager.GetObject("salary_marketing_income_financial_earn_money_is_work_icon_230480", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
