@@ -31,7 +31,13 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtIrpf.Text);
-                MessageBox.Show("SUA FAIXA SALARIAL ESTÁ ISENTA O IMPOSTO DE RENDA", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if(salario <= 1903)
+                {
+                    MessageBox.Show("SUA FAIXA SALARIAL ESTÁ ISENTA O IMPOSTO DE RENDA", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                var descontoInss = Inss.Calcula(salario);
+                salario = salario - descontoInss;
                 var descontoFgts = Fgts.calcula(salario);
                 lblResultado.Text = "R$" + descontoFgts.ToString("F2");
                panelResultado.Visible = true;
