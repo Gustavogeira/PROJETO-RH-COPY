@@ -53,9 +53,14 @@
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Core\AdicionalNoturno.cs" />
+    <Compile Include="Core\Ferias.cs" />
     <Compile Include="Core\Fgts.cs" />
+    <Compile Include="Core\HoraExtra.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irpf.cs" />
+    <Compile Include="Core\Periculosidade.cs" />
+    <Compile Include="Core\Pis.cs" />
+    <Compile Include="Core\SeguroDesemprego.cs" />
     <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
@@ -141,8 +146,23 @@
     <EmbeddedResource Include="Simuladores\frmBeneficioAdicionalNoturno.resx">
       <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFerias.resx">
+      <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioHorasExtras.resx">
+      <DependentUpon>frmBeneficioHorasExtras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPericulosidade.resx">
+      <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPis.resx">
+      <DependentUpon>frmBeneficioPis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioSeguroDesemprego.resx">
+      <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
       <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
@@ -186,6 +206,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HORAS-EXTRAS-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2cda33914f64b54d168fb4fb6c629dc5 %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insalubridade-e-periculosidade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pis-01-1551276963200_v2_956x506.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1636547561010-3160919.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ferias-1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

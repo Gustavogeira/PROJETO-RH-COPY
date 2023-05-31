@@ -16,5 +16,10 @@ namespace iRh.Windows.Simuladores
         {
             InitializeComponent();
         }
+
+        private void btnPis_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
