@@ -8,32 +8,28 @@ namespace iRh.Windows.Core
 {
     public static class SeguroDesemprego
     {
-        public static double calcule(double salario)
+        public static double calcule(double salario1, double salario2, double salario3 )
         {
             var mediaSalario = 0;
-            var seguroDesemprego = 0;
-            var salario1 = 0;
-            var salario2 = 0;
-            var salario3 = 0;
-
-            mediaSalario = salario1 + salario2 + salario3 / 3;
+     
 
             if(mediaSalario <= 1986.36)
             {
-                seguroDesemprego = double.Parse(mediaSalario * 0.80);
+               var seguroDesemprego = (mediaSalario * 0.80);
                 return seguroDesemprego;
             }
             else if(mediaSalario <= 3280.93)
             {
-                seguroDesemprego = double.Parse(mediaSalario * 0.50) + 1574.69;
+               var seguroDesemprego = (mediaSalario * 0.50) + 1574.69;
                 return seguroDesemprego;
             }
             else
             {
-                seguroDesemprego = double.Parse(2230.97);
+                var seguroDesemprego = 2230.97;
                 return seguroDesemprego;
             }
-            return 0;
+            
         }
     }
 }
+

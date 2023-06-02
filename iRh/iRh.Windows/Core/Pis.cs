@@ -8,9 +8,6 @@ namespace iRh.Windows.Core
 {
     public static class Pis
     {
-        public static double calcule(double salario)
-        {
-
-        }
+       
     }
 }
