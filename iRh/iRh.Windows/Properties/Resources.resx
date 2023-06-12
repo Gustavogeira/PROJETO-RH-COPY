@@ -121,8 +121,8 @@
   <data name="2cda33914f64b54d168fb4fb6c629dc5 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2cda33914f64b54d168fb4fb6c629dc5 (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="quais-as-tendencias-do-rh-4-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quais-as-tendencias-do-rh-4-0.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ferias-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ferias-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,8 +133,11 @@
   <data name="insalubridade-e-periculosidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\insalubridade-e-periculosidade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pis-01-1551276963200_v2_956x506" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pis-01-1551276963200_v2_956x506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Adicional-Norturno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adicional-Norturno.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="salary_marketing_income_financial_earn_money_is_work_icon_230480" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salary_marketing_income_financial_earn_money_is_work_icon_230480.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,11 +145,20 @@
   <data name="imposto-de-renda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imposto-de-renda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pis-01-1551276963200_v2_956x506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pis-01-1551276963200_v2_956x506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quais-as-tendencias-do-rh-4-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quais-as-tendencias-do-rh-4-0.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (2)1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (2).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HORAS-EXTRAS-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HORAS-EXTRAS-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,16 +166,25 @@
   <data name="original-2c8798bcd96b41b36151f03c0ba7b98f-1637340646" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\original-2c8798bcd96b41b36151f03c0ba7b98f-1637340646.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Adicional-Norturno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Adicional-Norturno.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inss-tributacao-impostos-gestao-linko-comercial-cr-sistemas-e-web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1)1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (4).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ferias-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ferias-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (3).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LGPD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LGPD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

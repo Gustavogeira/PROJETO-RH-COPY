@@ -16,5 +16,10 @@ namespace iRh.Windows.Cadastros
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

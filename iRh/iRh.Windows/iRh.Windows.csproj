@@ -53,6 +53,7 @@
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Core\AdicionalNoturno.cs" />
+    <Compile Include="Core\Colaborador.cs" />
     <Compile Include="Core\Ferias.cs" />
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\HoraExtra.cs" />
@@ -130,6 +131,9 @@
     <Compile Include="Simuladores\frmDescontoIrrf.Designer.cs">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cadastros\frmFuncionarios.resx">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrincipalMdi.resx">
       <DependentUpon>PrincipalMdi.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +237,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ferias-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LGPD.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
