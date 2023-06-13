@@ -28,9 +28,11 @@ namespace iRh.Windows.Cadastros
             var listaEstados = estado.ObterTodosEstados();
 
             cmbUf.Items.Clear();
-            cmbUf.DataSource = listaEstados;
+            cmbUf.DataSource = listaEstados.OrderBy(x => x.Sigla);
             cmbUf.DisplayMember = "Sigla";
-            cmbUf.ValueMember = "id";          
+            cmbUf.ValueMember = "id";  
+            
+
         }
 
         private void linkLblTelefone_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

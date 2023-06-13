@@ -10,7 +10,7 @@ namespace iRh.Windows.Core
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public string sigla  { get; set; }
+        public string Sigla  { get; set; }
 
         public List<Estados> ObterTodosEstados()
         {
@@ -20,13 +20,13 @@ namespace iRh.Windows.Core
             {
                 Id = 11,
                 Nome = "Rondônia",
-                sigla = "RO"
+                Sigla = "RO"
             });
             listadeEstados.Add(new Estados
             {
                 Id = 12,
                 Nome = "Acre",
-                sigla = "AC"
+                Sigla = "AC"
             });
             return listadeEstados;
         }
