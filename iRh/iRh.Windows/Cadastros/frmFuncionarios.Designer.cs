@@ -61,24 +61,29 @@
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.BackColor = System.Drawing.Color.Transparent;
-            this.lblNome.Location = new System.Drawing.Point(31, 20);
+            this.lblNome.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(36, 20);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(101, 13);
+            this.lblNome.Size = new System.Drawing.Size(103, 13);
             this.lblNome.TabIndex = 0;
             this.lblNome.Text = "NOME COMPLETO";
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(34, 36);
+            this.txtNome.Location = new System.Drawing.Point(40, 36);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(100, 20);
+            this.txtNome.Size = new System.Drawing.Size(116, 22);
             this.txtNome.TabIndex = 1;
             // 
             // lblCpf
             // 
             this.lblCpf.AutoSize = true;
             this.lblCpf.BackColor = System.Drawing.Color.Transparent;
-            this.lblCpf.Location = new System.Drawing.Point(173, 20);
+            this.lblCpf.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCpf.Location = new System.Drawing.Point(202, 20);
+            this.lblCpf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCpf.Name = "lblCpf";
             this.lblCpf.Size = new System.Drawing.Size(27, 13);
             this.lblCpf.TabIndex = 2;
@@ -86,17 +91,19 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 36);
+            this.textBox2.Location = new System.Drawing.Point(205, 36);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(116, 22);
             this.textBox2.TabIndex = 3;
             // 
             // mtxtDataNascimento
             // 
-            this.mtxtDataNascimento.Location = new System.Drawing.Point(321, 36);
+            this.mtxtDataNascimento.Location = new System.Drawing.Point(374, 36);
+            this.mtxtDataNascimento.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mtxtDataNascimento.Mask = "00/00/0000";
             this.mtxtDataNascimento.Name = "mtxtDataNascimento";
-            this.mtxtDataNascimento.Size = new System.Drawing.Size(118, 20);
+            this.mtxtDataNascimento.Size = new System.Drawing.Size(137, 22);
             this.mtxtDataNascimento.TabIndex = 4;
             this.mtxtDataNascimento.ValidatingType = typeof(System.DateTime);
             // 
@@ -104,7 +111,9 @@
             // 
             this.lblDataNascimento.AutoSize = true;
             this.lblDataNascimento.BackColor = System.Drawing.Color.Transparent;
-            this.lblDataNascimento.Location = new System.Drawing.Point(317, 20);
+            this.lblDataNascimento.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataNascimento.Location = new System.Drawing.Point(370, 20);
+            this.lblDataNascimento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataNascimento.Name = "lblDataNascimento";
             this.lblDataNascimento.Size = new System.Drawing.Size(128, 13);
             this.lblDataNascimento.TabIndex = 5;
@@ -114,75 +123,85 @@
             // 
             this.lblCep.AutoSize = true;
             this.lblCep.BackColor = System.Drawing.Color.Transparent;
-            this.lblCep.Location = new System.Drawing.Point(34, 98);
+            this.lblCep.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCep.Location = new System.Drawing.Point(40, 98);
+            this.lblCep.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCep.Name = "lblCep";
-            this.lblCep.Size = new System.Drawing.Size(28, 13);
+            this.lblCep.Size = new System.Drawing.Size(27, 13);
             this.lblCep.TabIndex = 6;
             this.lblCep.Text = "CEP";
             // 
             // txtCep
             // 
-            this.txtCep.Location = new System.Drawing.Point(34, 115);
+            this.txtCep.Location = new System.Drawing.Point(40, 115);
+            this.txtCep.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(100, 20);
+            this.txtCep.Size = new System.Drawing.Size(116, 22);
             this.txtCep.TabIndex = 7;
             // 
             // lblLogradouro
             // 
             this.lblLogradouro.AutoSize = true;
             this.lblLogradouro.BackColor = System.Drawing.Color.Transparent;
-            this.lblLogradouro.Location = new System.Drawing.Point(34, 177);
+            this.lblLogradouro.Location = new System.Drawing.Point(40, 177);
+            this.lblLogradouro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogradouro.Name = "lblLogradouro";
-            this.lblLogradouro.Size = new System.Drawing.Size(84, 13);
+            this.lblLogradouro.Size = new System.Drawing.Size(83, 13);
             this.lblLogradouro.TabIndex = 8;
             this.lblLogradouro.Text = "LOGRADOURO";
             // 
             // txtLogradouro
             // 
-            this.txtLogradouro.Location = new System.Drawing.Point(34, 194);
+            this.txtLogradouro.Location = new System.Drawing.Point(40, 194);
+            this.txtLogradouro.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLogradouro.Name = "txtLogradouro";
-            this.txtLogradouro.Size = new System.Drawing.Size(133, 20);
+            this.txtLogradouro.Size = new System.Drawing.Size(154, 22);
             this.txtLogradouro.TabIndex = 9;
             // 
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.BackColor = System.Drawing.Color.Transparent;
-            this.lblNumero.Location = new System.Drawing.Point(185, 177);
+            this.lblNumero.Location = new System.Drawing.Point(216, 177);
+            this.lblNumero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(55, 13);
+            this.lblNumero.Size = new System.Drawing.Size(56, 13);
             this.lblNumero.TabIndex = 10;
             this.lblNumero.Text = "NÙMERO";
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(188, 194);
+            this.txtNumero.Location = new System.Drawing.Point(219, 194);
+            this.txtNumero.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(52, 20);
+            this.txtNumero.Size = new System.Drawing.Size(60, 22);
             this.txtNumero.TabIndex = 11;
             // 
             // lblBairro
             // 
             this.lblBairro.AutoSize = true;
             this.lblBairro.BackColor = System.Drawing.Color.Transparent;
-            this.lblBairro.Location = new System.Drawing.Point(275, 177);
+            this.lblBairro.Location = new System.Drawing.Point(321, 177);
+            this.lblBairro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBairro.Name = "lblBairro";
-            this.lblBairro.Size = new System.Drawing.Size(48, 13);
+            this.lblBairro.Size = new System.Drawing.Size(47, 13);
             this.lblBairro.TabIndex = 12;
             this.lblBairro.Text = "BAIRRO";
             // 
             // txtBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(278, 193);
+            this.txtBairro.Location = new System.Drawing.Point(324, 193);
+            this.txtBairro.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(100, 20);
+            this.txtBairro.Size = new System.Drawing.Size(116, 22);
             this.txtBairro.TabIndex = 13;
             // 
             // lblCidade
             // 
             this.lblCidade.AutoSize = true;
             this.lblCidade.BackColor = System.Drawing.Color.Transparent;
-            this.lblCidade.Location = new System.Drawing.Point(34, 253);
+            this.lblCidade.Location = new System.Drawing.Point(40, 253);
+            this.lblCidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(47, 13);
             this.lblCidade.TabIndex = 14;
@@ -190,34 +209,38 @@
             // 
             // txtCidade
             // 
-            this.txtCidade.Location = new System.Drawing.Point(37, 270);
+            this.txtCidade.Location = new System.Drawing.Point(43, 270);
+            this.txtCidade.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(100, 20);
+            this.txtCidade.Size = new System.Drawing.Size(116, 22);
             this.txtCidade.TabIndex = 15;
             // 
             // lblUf
             // 
             this.lblUf.AutoSize = true;
             this.lblUf.BackColor = System.Drawing.Color.Transparent;
-            this.lblUf.Location = new System.Drawing.Point(163, 252);
+            this.lblUf.Location = new System.Drawing.Point(190, 252);
+            this.lblUf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUf.Name = "lblUf";
-            this.lblUf.Size = new System.Drawing.Size(70, 13);
+            this.lblUf.Size = new System.Drawing.Size(67, 13);
             this.lblUf.TabIndex = 16;
             this.lblUf.Text = "UF/ESTADO";
             // 
             // cmbUf
             // 
             this.cmbUf.FormattingEnabled = true;
-            this.cmbUf.Location = new System.Drawing.Point(166, 268);
+            this.cmbUf.Location = new System.Drawing.Point(194, 268);
+            this.cmbUf.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbUf.Name = "cmbUf";
-            this.cmbUf.Size = new System.Drawing.Size(121, 21);
+            this.cmbUf.Size = new System.Drawing.Size(140, 21);
             this.cmbUf.TabIndex = 17;
             // 
             // lblDdd
             // 
             this.lblDdd.AutoSize = true;
             this.lblDdd.BackColor = System.Drawing.Color.Transparent;
-            this.lblDdd.Location = new System.Drawing.Point(37, 320);
+            this.lblDdd.Location = new System.Drawing.Point(43, 320);
+            this.lblDdd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDdd.Name = "lblDdd";
             this.lblDdd.Size = new System.Drawing.Size(31, 13);
             this.lblDdd.TabIndex = 18;
@@ -225,33 +248,38 @@
             // 
             // txtDdd
             // 
-            this.txtDdd.Location = new System.Drawing.Point(37, 337);
+            this.txtDdd.Location = new System.Drawing.Point(43, 337);
+            this.txtDdd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtDdd.Name = "txtDdd";
-            this.txtDdd.Size = new System.Drawing.Size(44, 20);
+            this.txtDdd.Size = new System.Drawing.Size(51, 22);
             this.txtDdd.TabIndex = 19;
             // 
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
             this.lblTelefone.BackColor = System.Drawing.Color.Transparent;
-            this.lblTelefone.Location = new System.Drawing.Point(102, 320);
+            this.lblTelefone.Location = new System.Drawing.Point(119, 320);
+            this.lblTelefone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(63, 13);
+            this.lblTelefone.Size = new System.Drawing.Size(60, 13);
             this.lblTelefone.TabIndex = 20;
             this.lblTelefone.Text = "TELEFONE";
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(105, 336);
+            this.txtTelefone.Location = new System.Drawing.Point(122, 336);
+            this.txtTelefone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefone.Size = new System.Drawing.Size(116, 22);
             this.txtTelefone.TabIndex = 21;
             // 
             // btnCep
             // 
-            this.btnCep.Location = new System.Drawing.Point(158, 113);
+            this.btnCep.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCep.Location = new System.Drawing.Point(184, 113);
+            this.btnCep.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCep.Name = "btnCep";
-            this.btnCep.Size = new System.Drawing.Size(75, 23);
+            this.btnCep.Size = new System.Drawing.Size(88, 23);
             this.btnCep.TabIndex = 23;
             this.btnCep.Text = "Pesquisar";
             this.btnCep.UseVisualStyleBackColor = true;
@@ -261,9 +289,10 @@
             this.btnTelefone.BackColor = System.Drawing.Color.Transparent;
             this.btnTelefone.BackgroundImage = global::iRh.Windows.Properties.Resources.images;
             this.btnTelefone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTelefone.Location = new System.Drawing.Point(211, 328);
+            this.btnTelefone.Location = new System.Drawing.Point(246, 328);
+            this.btnTelefone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnTelefone.Name = "btnTelefone";
-            this.btnTelefone.Size = new System.Drawing.Size(41, 37);
+            this.btnTelefone.Size = new System.Drawing.Size(48, 37);
             this.btnTelefone.TabIndex = 24;
             this.btnTelefone.UseVisualStyleBackColor = false;
             // 
@@ -271,9 +300,11 @@
             // 
             this.linkLblTelefone.AutoSize = true;
             this.linkLblTelefone.BackColor = System.Drawing.Color.Transparent;
-            this.linkLblTelefone.Location = new System.Drawing.Point(268, 344);
+            this.linkLblTelefone.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLblTelefone.Location = new System.Drawing.Point(313, 344);
+            this.linkLblTelefone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLblTelefone.Name = "linkLblTelefone";
-            this.linkLblTelefone.Size = new System.Drawing.Size(80, 13);
+            this.linkLblTelefone.Size = new System.Drawing.Size(89, 13);
             this.linkLblTelefone.TabIndex = 25;
             this.linkLblTelefone.TabStop = true;
             this.linkLblTelefone.Text = "Chamar no Zap";
@@ -283,7 +314,8 @@
             // 
             this.lblDocumentos.AutoSize = true;
             this.lblDocumentos.BackColor = System.Drawing.Color.Transparent;
-            this.lblDocumentos.Location = new System.Drawing.Point(37, 381);
+            this.lblDocumentos.Location = new System.Drawing.Point(43, 381);
+            this.lblDocumentos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDocumentos.Name = "lblDocumentos";
             this.lblDocumentos.Size = new System.Drawing.Size(186, 13);
             this.lblDocumentos.TabIndex = 26;
@@ -292,19 +324,20 @@
             // cmbDocumentos
             // 
             this.cmbDocumentos.FormattingEnabled = true;
-            this.cmbDocumentos.Location = new System.Drawing.Point(37, 398);
+            this.cmbDocumentos.Location = new System.Drawing.Point(43, 398);
+            this.cmbDocumentos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbDocumentos.Name = "cmbDocumentos";
-            this.cmbDocumentos.Size = new System.Drawing.Size(186, 21);
+            this.cmbDocumentos.Size = new System.Drawing.Size(216, 21);
             this.cmbDocumentos.TabIndex = 27;
             this.cmbDocumentos.SelectedIndexChanged += new System.EventHandler(this.cmbDocumentos_SelectedIndexChanged);
             // 
             // frmFuncionarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.LGPD;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(778, 454);
             this.Controls.Add(this.cmbDocumentos);
             this.Controls.Add(this.lblDocumentos);
             this.Controls.Add(this.linkLblTelefone);
@@ -332,6 +365,8 @@
             this.Controls.Add(this.lblCpf);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
             this.Load += new System.EventHandler(this.frmFuncionarios_Load);
