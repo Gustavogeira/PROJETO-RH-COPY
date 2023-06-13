@@ -32,7 +32,7 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblCpf = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtDataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.lblDataNascimento = new System.Windows.Forms.Label();
             this.lblCep = new System.Windows.Forms.Label();
             this.txtCep = new System.Windows.Forms.TextBox();
@@ -50,9 +50,9 @@
             this.txtDdd = new System.Windows.Forms.TextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
             this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnCep = new System.Windows.Forms.Button();
             this.btnTelefone = new System.Windows.Forms.Button();
+            this.linkLblTelefone = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lblNome
@@ -87,14 +87,14 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
             // 
-            // maskedTextBox1
+            // mtxtDataNascimento
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(321, 36);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(118, 20);
-            this.maskedTextBox1.TabIndex = 4;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            this.mtxtDataNascimento.Location = new System.Drawing.Point(321, 36);
+            this.mtxtDataNascimento.Mask = "00/00/0000";
+            this.mtxtDataNascimento.Name = "mtxtDataNascimento";
+            this.mtxtDataNascimento.Size = new System.Drawing.Size(118, 20);
+            this.mtxtDataNascimento.TabIndex = 4;
+            this.mtxtDataNascimento.ValidatingType = typeof(System.DateTime);
             // 
             // lblDataNascimento
             // 
@@ -234,17 +234,6 @@
             this.txtTelefone.Size = new System.Drawing.Size(100, 20);
             this.txtTelefone.TabIndex = 21;
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(258, 340);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(80, 13);
-            this.linkLabel1.TabIndex = 22;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Chamar no Zap";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // btnCep
             // 
             this.btnCep.Location = new System.Drawing.Point(158, 113);
@@ -265,6 +254,18 @@
             this.btnTelefone.TabIndex = 24;
             this.btnTelefone.UseVisualStyleBackColor = false;
             // 
+            // linkLblTelefone
+            // 
+            this.linkLblTelefone.AutoSize = true;
+            this.linkLblTelefone.BackColor = System.Drawing.Color.Transparent;
+            this.linkLblTelefone.Location = new System.Drawing.Point(268, 344);
+            this.linkLblTelefone.Name = "linkLblTelefone";
+            this.linkLblTelefone.Size = new System.Drawing.Size(80, 13);
+            this.linkLblTelefone.TabIndex = 25;
+            this.linkLblTelefone.TabStop = true;
+            this.linkLblTelefone.Text = "Chamar no Zap";
+            this.linkLblTelefone.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblTelefone_LinkClicked);
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -272,9 +273,9 @@
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.LGPD;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.linkLblTelefone);
             this.Controls.Add(this.btnTelefone);
             this.Controls.Add(this.btnCep);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.lblTelefone);
             this.Controls.Add(this.txtDdd);
@@ -292,13 +293,14 @@
             this.Controls.Add(this.txtCep);
             this.Controls.Add(this.lblCep);
             this.Controls.Add(this.lblDataNascimento);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.mtxtDataNascimento);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblCpf);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -310,7 +312,7 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtxtDataNascimento;
         private System.Windows.Forms.Label lblDataNascimento;
         private System.Windows.Forms.Label lblCep;
         private System.Windows.Forms.TextBox txtCep;
@@ -328,8 +330,8 @@
         private System.Windows.Forms.TextBox txtDdd;
         private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.TextBox txtTelefone;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button btnCep;
         private System.Windows.Forms.Button btnTelefone;
+        private System.Windows.Forms.LinkLabel linkLblTelefone;
     }
 }
