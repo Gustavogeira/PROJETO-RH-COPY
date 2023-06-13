@@ -20,22 +20,40 @@ namespace iRh.Windows.Cadastros
         private void frmFuncionarios_Load(object sender, EventArgs e)
         {
             CarregarEstados();
+            CarregarDocumentos();
         }
 
         private void CarregarEstados()
         {
             var estado = new Estados();
             var listaEstados = estado.ObterTodosEstados();
-
+            var estadoAz = listaEstados.OrderBy(x => x.Sigla).ToList();
             cmbUf.Items.Clear();
-            cmbUf.DataSource = listaEstados.OrderBy(x => x.Sigla);
-            cmbUf.DisplayMember = "Sigla";
-            cmbUf.ValueMember = "id";  
+            cmbUf.DataSource = estadoAz;
+            cmbUf.DisplayMember = "Nome";
+            cmbUf.ValueMember = "Sigla";  
             
 
         }
+        private void CarregarDocumentos()
+        {
+            var estado = new Documentos();
+            var listadeDocumentos = estado.ObterTodosDocumentos();
+            var documentosAz = listadeDocumentos.OrderBy(x => x.Descrição).ToList();
+            cmbDocumentos.Items.Clear();
+            cmbDocumentos.DataSource = documentosAz;
+            cmbDocumentos.DisplayMember = "Descrição";
+            cmbDocumentos.ValueMember = "Id";
+        }
+        
+
 
         private void linkLblTelefone_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void cmbDocumentos_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

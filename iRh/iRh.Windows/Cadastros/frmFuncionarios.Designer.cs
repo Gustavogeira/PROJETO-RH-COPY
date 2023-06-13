@@ -53,11 +53,14 @@
             this.btnCep = new System.Windows.Forms.Button();
             this.btnTelefone = new System.Windows.Forms.Button();
             this.linkLblTelefone = new System.Windows.Forms.LinkLabel();
+            this.lblDocumentos = new System.Windows.Forms.Label();
+            this.cmbDocumentos = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
             this.lblNome.Location = new System.Drawing.Point(31, 20);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(101, 13);
@@ -74,6 +77,7 @@
             // lblCpf
             // 
             this.lblCpf.AutoSize = true;
+            this.lblCpf.BackColor = System.Drawing.Color.Transparent;
             this.lblCpf.Location = new System.Drawing.Point(173, 20);
             this.lblCpf.Name = "lblCpf";
             this.lblCpf.Size = new System.Drawing.Size(27, 13);
@@ -99,6 +103,7 @@
             // lblDataNascimento
             // 
             this.lblDataNascimento.AutoSize = true;
+            this.lblDataNascimento.BackColor = System.Drawing.Color.Transparent;
             this.lblDataNascimento.Location = new System.Drawing.Point(317, 20);
             this.lblDataNascimento.Name = "lblDataNascimento";
             this.lblDataNascimento.Size = new System.Drawing.Size(128, 13);
@@ -108,6 +113,7 @@
             // lblCep
             // 
             this.lblCep.AutoSize = true;
+            this.lblCep.BackColor = System.Drawing.Color.Transparent;
             this.lblCep.Location = new System.Drawing.Point(34, 98);
             this.lblCep.Name = "lblCep";
             this.lblCep.Size = new System.Drawing.Size(28, 13);
@@ -124,6 +130,7 @@
             // lblLogradouro
             // 
             this.lblLogradouro.AutoSize = true;
+            this.lblLogradouro.BackColor = System.Drawing.Color.Transparent;
             this.lblLogradouro.Location = new System.Drawing.Point(34, 177);
             this.lblLogradouro.Name = "lblLogradouro";
             this.lblLogradouro.Size = new System.Drawing.Size(84, 13);
@@ -140,6 +147,7 @@
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
+            this.lblNumero.BackColor = System.Drawing.Color.Transparent;
             this.lblNumero.Location = new System.Drawing.Point(185, 177);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(55, 13);
@@ -156,6 +164,7 @@
             // lblBairro
             // 
             this.lblBairro.AutoSize = true;
+            this.lblBairro.BackColor = System.Drawing.Color.Transparent;
             this.lblBairro.Location = new System.Drawing.Point(275, 177);
             this.lblBairro.Name = "lblBairro";
             this.lblBairro.Size = new System.Drawing.Size(48, 13);
@@ -172,6 +181,7 @@
             // lblCidade
             // 
             this.lblCidade.AutoSize = true;
+            this.lblCidade.BackColor = System.Drawing.Color.Transparent;
             this.lblCidade.Location = new System.Drawing.Point(34, 253);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(47, 13);
@@ -188,6 +198,7 @@
             // lblUf
             // 
             this.lblUf.AutoSize = true;
+            this.lblUf.BackColor = System.Drawing.Color.Transparent;
             this.lblUf.Location = new System.Drawing.Point(163, 252);
             this.lblUf.Name = "lblUf";
             this.lblUf.Size = new System.Drawing.Size(70, 13);
@@ -205,6 +216,7 @@
             // lblDdd
             // 
             this.lblDdd.AutoSize = true;
+            this.lblDdd.BackColor = System.Drawing.Color.Transparent;
             this.lblDdd.Location = new System.Drawing.Point(37, 320);
             this.lblDdd.Name = "lblDdd";
             this.lblDdd.Size = new System.Drawing.Size(31, 13);
@@ -221,6 +233,7 @@
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
+            this.lblTelefone.BackColor = System.Drawing.Color.Transparent;
             this.lblTelefone.Location = new System.Drawing.Point(102, 320);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(63, 13);
@@ -266,6 +279,25 @@
             this.linkLblTelefone.Text = "Chamar no Zap";
             this.linkLblTelefone.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblTelefone_LinkClicked);
             // 
+            // lblDocumentos
+            // 
+            this.lblDocumentos.AutoSize = true;
+            this.lblDocumentos.BackColor = System.Drawing.Color.Transparent;
+            this.lblDocumentos.Location = new System.Drawing.Point(37, 381);
+            this.lblDocumentos.Name = "lblDocumentos";
+            this.lblDocumentos.Size = new System.Drawing.Size(186, 13);
+            this.lblDocumentos.TabIndex = 26;
+            this.lblDocumentos.Text = "DOCUMENTOS DE IDENTIFICAÇÃO";
+            // 
+            // cmbDocumentos
+            // 
+            this.cmbDocumentos.FormattingEnabled = true;
+            this.cmbDocumentos.Location = new System.Drawing.Point(37, 398);
+            this.cmbDocumentos.Name = "cmbDocumentos";
+            this.cmbDocumentos.Size = new System.Drawing.Size(186, 21);
+            this.cmbDocumentos.TabIndex = 27;
+            this.cmbDocumentos.SelectedIndexChanged += new System.EventHandler(this.cmbDocumentos_SelectedIndexChanged);
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -273,6 +305,8 @@
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.LGPD;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmbDocumentos);
+            this.Controls.Add(this.lblDocumentos);
             this.Controls.Add(this.linkLblTelefone);
             this.Controls.Add(this.btnTelefone);
             this.Controls.Add(this.btnCep);
@@ -333,5 +367,7 @@
         private System.Windows.Forms.Button btnCep;
         private System.Windows.Forms.Button btnTelefone;
         private System.Windows.Forms.LinkLabel linkLblTelefone;
+        private System.Windows.Forms.Label lblDocumentos;
+        private System.Windows.Forms.ComboBox cmbDocumentos;
     }
 }
