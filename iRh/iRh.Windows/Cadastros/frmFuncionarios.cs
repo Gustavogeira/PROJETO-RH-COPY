@@ -64,6 +64,12 @@ namespace iRh.Windows.Cadastros
 
             var endereco = new Endereco();
             var  enderecoCompleto = endereco.ObterPorCep(cepDigitado);
+            if(enderecoCompleto == null)
+            {
+            MessageBox.Show("Coloque um CEP válido!!","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            txtCep.Focus();
+            return;
+            }
 
             txtLogradouro.Text = enderecoCompleto.Logradouro;
             txtBairro.Text = enderecoCompleto.Bairro;
@@ -71,6 +77,31 @@ namespace iRh.Windows.Cadastros
             txtDdd.Text = enderecoCompleto.Ddd;
             cmbUf.SelectedValue = enderecoCompleto.Uf;
 
+        }
+
+        private void txtCidade_TextChanged(object sender, EventArgs e)
+        {
+            txtCidade.Enabled = false;
+        }
+
+        private void txtDdd_TextChanged(object sender, EventArgs e)
+        {
+            txtDdd.Enabled = false;
+        }
+
+        private void cmbUf_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbUf.Enabled = false;
+        }
+
+        private void txtLogradouro_TextChanged(object sender, EventArgs e)
+        {
+            txtLogradouro.Enabled = false;
+        }
+
+        private void txtBairro_TextChanged(object sender, EventArgs e)
+        {
+            txtBairro.Enabled = false;
         }
     }
 }

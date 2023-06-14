@@ -157,6 +157,7 @@
             this.txtLogradouro.Name = "txtLogradouro";
             this.txtLogradouro.Size = new System.Drawing.Size(154, 22);
             this.txtLogradouro.TabIndex = 9;
+            this.txtLogradouro.TextChanged += new System.EventHandler(this.txtLogradouro_TextChanged);
             // 
             // lblNumero
             // 
@@ -195,6 +196,7 @@
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(187, 22);
             this.txtBairro.TabIndex = 13;
+            this.txtBairro.TextChanged += new System.EventHandler(this.txtBairro_TextChanged);
             // 
             // lblCidade
             // 
@@ -214,6 +216,7 @@
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(136, 22);
             this.txtCidade.TabIndex = 15;
+            this.txtCidade.TextChanged += new System.EventHandler(this.txtCidade_TextChanged);
             // 
             // lblUf
             // 
@@ -234,6 +237,7 @@
             this.cmbUf.Name = "cmbUf";
             this.cmbUf.Size = new System.Drawing.Size(140, 21);
             this.cmbUf.TabIndex = 17;
+            this.cmbUf.SelectedIndexChanged += new System.EventHandler(this.cmbUf_SelectedIndexChanged);
             // 
             // lblDdd
             // 
@@ -253,6 +257,7 @@
             this.txtDdd.Name = "txtDdd";
             this.txtDdd.Size = new System.Drawing.Size(51, 22);
             this.txtDdd.TabIndex = 19;
+            this.txtDdd.TextChanged += new System.EventHandler(this.txtDdd_TextChanged);
             // 
             // lblTelefone
             // 

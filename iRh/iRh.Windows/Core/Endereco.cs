@@ -27,18 +27,31 @@ namespace iRh.Windows.Core
 
             var enderecoDaApi = new Endereco();
 
-            //Instacia HTTP que permite obter informações da internet através de uma URL
-            var http = new HttpClient();
+            try
+            {
 
-            var url = new Uri("https://viacep.com.br/ws/" + Cep + "/json/");
-            var result = http.GetAsync(url).GetAwaiter().GetResult();
 
-            //Converte o resultado obtido em uma string
-            var resultContent = result.Content.ReadAsStringAsync().GetAwaiter().GetResult();
 
-            //Converte a string json para nossa classe ViacepWrapper
-            enderecoDaApi = JsonConvert.DeserializeObject<Endereco>(resultContent);
-            return enderecoDaApi;
+                //Instacia HTTP que permite obter informações da internet através de uma URL
+                var http = new HttpClient();
+
+                var url = new Uri("https://viacep.com.br/ws/" + Cep + "/json/");
+                var result = http.GetAsync(url).GetAwaiter().GetResult();
+
+                //Converte o resultado obtido em uma string
+                var resultContent = result.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+
+                //Converte a string json para nossa classe ViacepWrapper
+                enderecoDaApi = JsonConvert.DeserializeObject<Endereco>(resultContent);
+                return enderecoDaApi;
+            }
+            catch(Exception)
+            {
+                return null;    
+            }
+
+
+            
 
         }
 
