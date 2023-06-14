@@ -193,7 +193,7 @@
             this.txtBairro.Location = new System.Drawing.Point(324, 193);
             this.txtBairro.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(116, 22);
+            this.txtBairro.Size = new System.Drawing.Size(187, 22);
             this.txtBairro.TabIndex = 13;
             // 
             // lblCidade
@@ -209,10 +209,10 @@
             // 
             // txtCidade
             // 
-            this.txtCidade.Location = new System.Drawing.Point(43, 270);
+            this.txtCidade.Location = new System.Drawing.Point(39, 268);
             this.txtCidade.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(116, 22);
+            this.txtCidade.Size = new System.Drawing.Size(136, 22);
             this.txtCidade.TabIndex = 15;
             // 
             // lblUf
