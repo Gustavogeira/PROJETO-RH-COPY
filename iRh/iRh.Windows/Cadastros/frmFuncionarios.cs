@@ -57,5 +57,14 @@ namespace iRh.Windows.Cadastros
         {
 
         }
+
+        private void btnCep_Click(object sender, EventArgs e)
+        {
+            var cepDigitado = txtCep.Text;
+
+            var endereco = new Endereco();
+            var  enderecoCompleto = endereco.ObterPorCep(cepDigitado);
+
+        }
     }
 }

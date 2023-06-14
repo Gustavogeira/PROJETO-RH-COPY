@@ -124,7 +124,7 @@
             this.lblCep.AutoSize = true;
             this.lblCep.BackColor = System.Drawing.Color.Transparent;
             this.lblCep.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCep.Location = new System.Drawing.Point(40, 98);
+            this.lblCep.Location = new System.Drawing.Point(40, 136);
             this.lblCep.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCep.Name = "lblCep";
             this.lblCep.Size = new System.Drawing.Size(27, 13);
@@ -133,7 +133,7 @@
             // 
             // txtCep
             // 
-            this.txtCep.Location = new System.Drawing.Point(40, 115);
+            this.txtCep.Location = new System.Drawing.Point(43, 152);
             this.txtCep.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtCep.Name = "txtCep";
             this.txtCep.Size = new System.Drawing.Size(116, 22);
@@ -276,13 +276,14 @@
             // btnCep
             // 
             this.btnCep.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCep.Location = new System.Drawing.Point(184, 113);
+            this.btnCep.Location = new System.Drawing.Point(167, 150);
             this.btnCep.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCep.Name = "btnCep";
             this.btnCep.Size = new System.Drawing.Size(88, 23);
             this.btnCep.TabIndex = 23;
             this.btnCep.Text = "Pesquisar";
             this.btnCep.UseVisualStyleBackColor = true;
+            this.btnCep.Click += new System.EventHandler(this.btnCep_Click);
             // 
             // btnTelefone
             // 
@@ -314,7 +315,7 @@
             // 
             this.lblDocumentos.AutoSize = true;
             this.lblDocumentos.BackColor = System.Drawing.Color.Transparent;
-            this.lblDocumentos.Location = new System.Drawing.Point(43, 381);
+            this.lblDocumentos.Location = new System.Drawing.Point(36, 71);
             this.lblDocumentos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDocumentos.Name = "lblDocumentos";
             this.lblDocumentos.Size = new System.Drawing.Size(186, 13);
@@ -324,7 +325,7 @@
             // cmbDocumentos
             // 
             this.cmbDocumentos.FormattingEnabled = true;
-            this.cmbDocumentos.Location = new System.Drawing.Point(43, 398);
+            this.cmbDocumentos.Location = new System.Drawing.Point(39, 87);
             this.cmbDocumentos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbDocumentos.Name = "cmbDocumentos";
             this.cmbDocumentos.Size = new System.Drawing.Size(216, 21);
