@@ -69,6 +69,7 @@ namespace iRh.Windows.Cadastros
             }
 
             var endereco = new Endereco();
+
             var enderecoCompleto = endereco.ObterPorCep(cepDigitado);
 
             if(enderecoCompleto.Erro == true)
@@ -77,6 +78,18 @@ namespace iRh.Windows.Cadastros
                 txtCep.Focus();
                 return;
             }
+
+            if(enderecoCompleto.Localidade != "")
+            {
+                txtCidade.Enabled = false; 
+            }
+            
+            if(endereco.Uf != "")
+            {
+                cmbUf.Enabled = false;
+            }
+
+
 
             txtLogradouro.Text = enderecoCompleto.Logradouro;
             txtBairro.Text = enderecoCompleto.Bairro;
