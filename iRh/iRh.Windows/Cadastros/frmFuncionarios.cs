@@ -61,14 +61,21 @@ namespace iRh.Windows.Cadastros
         private void btnCep_Click(object sender, EventArgs e)
         {
             var cepDigitado = txtCep.Text;
+            if(cepDigitado.Length < 9)
+            {
+                MessageBox.Show("Digite um CEP válido");
+                txtCep.Focus();
+                return;
+            }
 
             var endereco = new Endereco();
-            var  enderecoCompleto = endereco.ObterPorCep(cepDigitado);
-            if(enderecoCompleto == null)
+            var enderecoCompleto = endereco.ObterPorCep(cepDigitado);
+
+            if(enderecoCompleto.Erro == true)
             {
-            MessageBox.Show("Coloque um CEP válido!!","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            txtCep.Focus();
-            return;
+                MessageBox.Show("O CEP não existe");
+                txtCep.Focus();
+                return;
             }
 
             txtLogradouro.Text = enderecoCompleto.Logradouro;

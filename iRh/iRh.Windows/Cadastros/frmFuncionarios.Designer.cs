@@ -35,7 +35,6 @@
             this.mtxtDataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.lblDataNascimento = new System.Windows.Forms.Label();
             this.lblCep = new System.Windows.Forms.Label();
-            this.txtCep = new System.Windows.Forms.TextBox();
             this.lblLogradouro = new System.Windows.Forms.Label();
             this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblNumero = new System.Windows.Forms.Label();
@@ -55,6 +54,7 @@
             this.linkLblTelefone = new System.Windows.Forms.LinkLabel();
             this.lblDocumentos = new System.Windows.Forms.Label();
             this.cmbDocumentos = new System.Windows.Forms.ComboBox();
+            this.txtCep = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // lblNome
@@ -130,14 +130,6 @@
             this.lblCep.Size = new System.Drawing.Size(27, 13);
             this.lblCep.TabIndex = 6;
             this.lblCep.Text = "CEP";
-            // 
-            // txtCep
-            // 
-            this.txtCep.Location = new System.Drawing.Point(43, 152);
-            this.txtCep.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(116, 22);
-            this.txtCep.TabIndex = 7;
             // 
             // lblLogradouro
             // 
@@ -337,6 +329,14 @@
             this.cmbDocumentos.TabIndex = 27;
             this.cmbDocumentos.SelectedIndexChanged += new System.EventHandler(this.cmbDocumentos_SelectedIndexChanged);
             // 
+            // txtCep
+            // 
+            this.txtCep.Location = new System.Drawing.Point(40, 151);
+            this.txtCep.Mask = "00000-000";
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(100, 22);
+            this.txtCep.TabIndex = 28;
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -344,6 +344,7 @@
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.LGPD;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(778, 454);
+            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.cmbDocumentos);
             this.Controls.Add(this.lblDocumentos);
             this.Controls.Add(this.linkLblTelefone);
@@ -363,7 +364,6 @@
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.txtLogradouro);
             this.Controls.Add(this.lblLogradouro);
-            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.lblCep);
             this.Controls.Add(this.lblDataNascimento);
             this.Controls.Add(this.mtxtDataNascimento);
@@ -390,7 +390,6 @@
         private System.Windows.Forms.MaskedTextBox mtxtDataNascimento;
         private System.Windows.Forms.Label lblDataNascimento;
         private System.Windows.Forms.Label lblCep;
-        private System.Windows.Forms.TextBox txtCep;
         private System.Windows.Forms.Label lblLogradouro;
         private System.Windows.Forms.TextBox txtLogradouro;
         private System.Windows.Forms.Label lblNumero;
@@ -410,5 +409,6 @@
         private System.Windows.Forms.LinkLabel linkLblTelefone;
         private System.Windows.Forms.Label lblDocumentos;
         private System.Windows.Forms.ComboBox cmbDocumentos;
+        private System.Windows.Forms.MaskedTextBox txtCep;
     }
 }

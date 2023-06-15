@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.SqlServer.Server;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,8 @@ namespace iRh.Windows.Core
         public string Gia { get; set; }
         public string Ddd { get; set; }
         public string Siafi { get; set; }
+        public bool  Erro { get; set; }
+
 
         public Endereco ObterPorCep(string Cep)
         {
